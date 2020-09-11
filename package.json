@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "npm start --prefix habit_frontend/src",
+    "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
   "repository": {
@@ -27,6 +27,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.4",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "superagent": "^6.1.0"
   }
 }
